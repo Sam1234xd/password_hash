@@ -78,3 +78,11 @@ button:hover {
     background-color: #f06292;
     color: white;
 }
+
+/* Iconos de las páginas */
+.icono {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 8px;
+}

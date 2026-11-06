@@ -14,7 +14,10 @@
 <body>
 <div class="contenedor">
 
-    <h1>Inicio de sesión</h1>
+    <h1>
+        <img src="imagenes/contrasena.png" class="icono">
+        Inicio de sesión
+    </h1>
 
     <form method="POST" action="">
 

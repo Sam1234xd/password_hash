@@ -13,7 +13,10 @@
 <body>
 <div class="contenedor">
 
-    <h1>Registro de usuarios</h1>
+    <h1>
+        <img src="imagenes/registro.png" class="icono">
+        Registro de usuarios
+    </h1>
 
     <form method="POST" action="">
 
