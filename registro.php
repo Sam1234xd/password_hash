@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +11,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-
-    <?php
-    session_start();
-    ?>
+<div class="contenedor">
 
     <h1>Registro de usuarios</h1>
 
@@ -37,6 +38,8 @@
        <a class="boton" href="login.php">
             login
         </a>
+        <br></br>
+
 
     </form>
 
@@ -86,6 +89,6 @@
     }
 
     ?>
-
+</div>
 </body>
 </html>

@@ -1,52 +1,80 @@
+
 body {
+    background-color: #fce4ec;
     font-family: Arial;
-    width: 700px;
-    margin: 30px auto;
+    text-align: center;
+    margin: 0;
     padding: 30px;
-    border: 3px solid #f785be;
-    border-radius: 30px;
-    background-color: rgb(241, 199, 216);
-    text-align: center;
 }
 
-h1 {
-    color: #ffffff;
-    font-family: cursive;
-    background-color: #f785be;
-    padding: 15px;
-    border-radius: 20px;
-}
-
-form {
+/* Cuadro blanco */
+.contenedor {
     background-color: white;
-    padding: 25px;
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 3px solid #ec407a;
     border-radius: 20px;
-    text-align: center;
 }
 
+
+/* Título */
+h1 {
+    color: #ad1457;
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* Etiquetas */
 label {
+    color: #880e4f;
     font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
+/* Campos */
 input {
-    padding: 7px;
-    margin: 5px;
-    border: 2px solid #f785be;
-    border-radius: 8px;
-    width: 70px;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #fff8fb;
 }
 
+/* Botón */
 button {
-    background-color: rgb(241, 199, 216);
+    background-color: #f53374;
     color: white;
-    padding: 10px 25px;
+    padding: 12px 25px;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #f785be;
+    background-color: #ad1457;
 }
 
+/* Enlace */
+.boton {
+    background-color: #f8bbd0;
+    color: #880e4f;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #f06292;
+    color: white;
+}

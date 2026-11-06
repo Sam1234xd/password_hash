@@ -1,3 +1,8 @@
+<?php
+    session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +12,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-
-    <?php
-    session_start();
-    ?>
+<div class="contenedor">
 
     <h1>Inicio de sesión</h1>
 
@@ -29,6 +31,8 @@
         <a class="boton" href="registro.php">
             registro
         </a>
+       <br></br>
+
 
     </form>
 
@@ -64,6 +68,7 @@
                 else {
 
                     $mensaje = "Contraseña incorrecta.";
+                    echo $mensaje;
 
                 }
 
@@ -75,6 +80,8 @@
 
 }
 
-    ?>
+?>
+
+</div>
 </body>
 </html>
