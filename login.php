@@ -50,9 +50,14 @@
             if (isset($u['Usuario']) && $u['Usuario'] == $user) {
 
                 // Verificar contraseña
-                if (password_verify($con, $u['Contraseña'])) {
+               if (password_verify($con, $u['Contraseña'])) {
 
                     $mensaje = "Bienvenido al sistema " . $u['Nombre'];
+
+                    
+                    echo $mensaje . "<br>";
+                    echo "Nombre de Usuario: " . $u['Usuario']."<br>";
+                    echo "Contraseña con hash: " . $u['Contraseña'];
 
                 }
                 else {
@@ -67,7 +72,6 @@
         }
     }
 
-    echo $mensaje;
 }
 
     ?>
