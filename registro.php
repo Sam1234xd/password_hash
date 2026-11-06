@@ -15,19 +15,27 @@
 
     <form method="POST" action="">
 
-        Nombre:<br>
-        <input type="text" name="nombre"><br><br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+        <br></br>
 
-        Nombre de usuario:<br>
-        <input type="text" name="usuario"><br><br>
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" name="usuario">
+        <br></br>
 
-        Contraseña:<br>
-        <input type="password" name="password"><br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password">
+        <br></br>
 
-        Confirmar contraseña:<br>
-        <input type="password" name="confirmar"><br><br>
+        <label for="confirmar">Confirmar contraseña:</label>
+        <input type="password" name="confirmar">
+        <br></br>
 
-        <input type="submit" name="registrar" value="Registrar">
+       <button type="submit" name="registrar">registrar</button>
+       
+       <a class="boton" href="login.php">
+            login
+        </a>
 
     </form>
 

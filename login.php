@@ -15,19 +15,25 @@
 
     <form method="POST" action="">
 
-        Nombre de usuario:<br>
-        <input type="text" name="usuario"><br><br>
+        <label for="usuario">Nombre de Usuario:</label>
+        <input type="text" name="usuario">
+        <br></br>
 
-        Contraseña:<br>
-        <input type="password" name="password"><br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password">
+        <br></br>
 
-        <input type="submit" name="ingresar" value="Iniciar sesión">
+        <button type="submit" name="ingresar">Iniciar sesión</button>
+
+        <a class="boton" href="registro.php">
+            registro
+        </a>
 
     </form>
 
     <?php
 
-   if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ingresar'])) {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ingresar'])) {
 
     // Recibir los datos
     $user = $_POST['usuario'];
